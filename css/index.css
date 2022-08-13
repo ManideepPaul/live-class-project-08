@@ -8,23 +8,14 @@ body {
   overflow: hidden;
 }
 
-.main {
+.main-div {
   box-sizing: border-box;
-  height: 100vh;
 }
 
-.main-div::after {
-  content: "";
+body > img {
   position: absolute;
-  bottom: 30%;
-  left: 40%;
-  height: 2000px;
-  width: 2000px;
-  background-color: #d3acf4;
-  transform: rotate(75deg);
-  border-radius: 220px;
-  z-index: 1;
-  box-sizing: border-box;
+  right: -5%;
+  top: -20%;
 }
 
 /**************** Nav Section ***************/
@@ -102,13 +93,13 @@ h4 {
 }
 
 .imgs-div {
-  width: 60vw;
+  width: 50vw;
   justify-self: flex-end;
   position: relative;
 }
 
 img[alt="intro-img"] {
-  width: 90vw;
+  width: 70vw;
   height: 80vh;
   position: absolute;
   right: -25%;
