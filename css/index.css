@@ -53,6 +53,11 @@ nav {
   color: #ffffff;
 }
 
+.menu {
+  align-self: flex-start;
+  display: none;
+}
+
 /******************** Intro Section *******************/
 
 .intro-section {
